@@ -1,0 +1,4 @@
+# Raw camera originals for the hero carousel — unused by the site,
+# only the compressed *-web.jpg versions in assets/hero/ are referenced.
+assets/hero/*.jpg
+!assets/hero/*-web.jpg

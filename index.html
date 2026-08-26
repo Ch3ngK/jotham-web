@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jotham Tay — Freelance Photographer &amp; Videographer</title>
+<meta name="description" content="Jotham Tay is a freelance photographer and videographer based in Singapore, specializing in events, nightlife, music and portrait photography.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav" id="top">
+  <div class="nav-inner">
+    <nav class="nav-links">
+      <a href="#photography">Photography</a>
+      <a href="#videography">Videography</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="hero-text">
+      <h1>JOTHAM TAY</h1>
+      <p class="hero-tagline">Freelance Photographer &amp; Videographer</p>
+    </div>
+    <div class="carousel hero-carousel" data-carousel data-interval="5000">
+      <div class="carousel-track"></div>
+      <div class="carousel-dots"></div>
+    </div>
+  </section>
+
+  <section id="photography" class="section">
+    <div class="section-header reveal">
+      <h2>Photography</h2>
+      <p class="section-sub">Events &middot; Nightlife &middot; Music &middot; Portraits</p>
+    </div>
+
+    <div class="gallery-group reveal" data-gallery="Music"></div>
+    <div class="gallery-group reveal" data-gallery="Nightlife"></div>
+    <div class="gallery-group reveal" data-gallery="Events"></div>
+    <div class="gallery-group reveal" data-gallery="Portraits"></div>
+  </section>
+
+  <section id="videography" class="section section-dark">
+    <div class="section-header reveal">
+      <h2>Videography</h2>
+      <p class="section-sub">Regina — Song EPs</p>
+    </div>
+    <div class="video-carousel reveal" data-video-carousel>
+      <div class="video-track"></div>
+      <div class="carousel-dots"></div>
+    </div>
+  </section>
+</main>
+
+<footer id="contact" class="contact">
+  <h2 class="reveal">Get In<br>Touch</h2>
+  <div class="contact-details reveal">
+    <div>
+      <span class="contact-label">Email</span>
+      <a href="mailto:jothamtay02@gmail.com">jothamtay02@gmail.com</a>
+    </div>
+    <div>
+      <span class="contact-label">Contact</span>
+      <a href="tel:+6590077353">+65 9007 7353</a>
+    </div>
+  </div>
+  <p class="footer-note">&copy; <span id="year"></span> Jotham Tay. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
